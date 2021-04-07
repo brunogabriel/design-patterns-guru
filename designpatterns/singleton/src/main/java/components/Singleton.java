@@ -11,7 +11,6 @@ public final class Singleton {
             interruptedException.printStackTrace();
         }
         this.value = value;
-
     }
 
     public static Singleton getInstance(String value) {
