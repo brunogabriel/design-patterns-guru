@@ -6,11 +6,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DemoFactoryMethod {
-    private static final List<String> osList = Arrays.asList("Mac OS X", "Windows");
+    private static final List<String> osList = Arrays.asList("mac os x", "windows");
     private static Dialog dialog;
 
     public static void initialize() {
-        boolean osFound = osList.stream().anyMatch(s -> s.contains(System.getProperty("os.name")));
+        boolean osFound = osList.stream().anyMatch(s -> s.contains(System.getProperty("os.name").toLowerCase()));
         if (osFound) {
             dialog = new OSDialog();
         } else {

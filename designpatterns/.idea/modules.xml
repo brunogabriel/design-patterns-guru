@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstractfactory.iml" filepath="$PROJECT_DIR$/.idea/modules/abstractfactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton.iml" />
     </modules>
   </component>
