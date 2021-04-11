@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstractfactory.iml" filepath="$PROJECT_DIR$/.idea/modules/abstractfactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/builder.iml" filepath="$PROJECT_DIR$/.idea/modules/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/prototype.iml" filepath="$PROJECT_DIR$/.idea/modules/prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton.iml" />
     </modules>
